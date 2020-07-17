@@ -87,3 +87,15 @@ ul > li {
   font-weight: bold;
   color: green;
 }
+/*  6. Descendant Selector : ul li */
+/*  คล้าย ๆ Child Selector แต่ไม่ต้องเป็นลูกของตัวเองก็ได้ อาจเป็นญาติ
+    ขอเพียงแต่มีสายเลือดเดียวกันก็พอ    
+*/
+/*  Child Selector */
+div > p {
+  font-weight: bold;
+}
+/*  Descendant Selector */
+div p {
+  font-weight: bold;
+}
