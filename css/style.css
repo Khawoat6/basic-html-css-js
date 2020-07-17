@@ -99,3 +99,10 @@ div > p {
 div p {
   font-weight: bold;
 }
+/*  7. Universal Selector : * */
+[id*="post"] {
+  font-weight: bold;
+}
+#article * span {
+  font-weight: bold;
+}
