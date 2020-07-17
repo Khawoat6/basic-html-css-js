@@ -9,7 +9,7 @@
 
     color: blue;            ตือ Declaration
  */
- /* CSS Rules ans Selectors
+/* CSS Rules ans Selectors
     1. Tag, Element         div
     2. ID                   #header
     3. Class                .post
@@ -21,3 +21,18 @@
     9. Pseudo-classes,      a:hover, p::first-letter
        Pseudo-element
 */
+/*  1. Element Selector : <div></div> */
+h1 {
+  color: #1b07d3;
+}
+span {
+  font-weight: bold;
+}
+a {
+  color: aqua;
+}
+div {
+  border: 1px solid salmon;
+  padding: 5px;
+  color: blueviolet;
+}
