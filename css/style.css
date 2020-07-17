@@ -111,3 +111,8 @@ div p {
 img[alt="logo"] {
   border: 2px solid #000000;
 }
+/*  9. Pseudo-classes, Pseudo-element Selector : a:hover */
+/*  ใช้กรณีพิเศษ คือ การเอาเมาท์ไปวางบนปุ่ม, การกำหนดให้ List แรกเป็นตัวหนา */
+a:hover {
+  color: #1b07d3;
+}
