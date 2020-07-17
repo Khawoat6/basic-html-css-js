@@ -29,7 +29,7 @@ span {
   font-weight: bold;
 }
 a {
-  color: aqua;
+  color: rgb(255, 145, 0);
 }
 div {
   border: 1px solid salmon;
@@ -50,4 +50,19 @@ div {
   border: 1px solid black;
   padding: 5px;
   color: rgb(255, 0, 13);
+}
+/*  3. Class Selector : .className */
+.heading {
+  color: rgb(224, 133, 20);
+}
+.span {
+  font-weight: bold;
+}
+.hyperlink {
+  color: crimson;
+}
+.box {
+  border: 1px solid steelblue;
+  padding: 5px;
+  color: black;
 }
