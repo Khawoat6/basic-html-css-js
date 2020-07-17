@@ -36,3 +36,18 @@ div {
   padding: 5px;
   color: blueviolet;
 }
+/*  2. ID Selector : #IDName */
+#heading {
+  color: darkgreen;
+}
+#span {
+  font-weight: bold;
+}
+#hyperlink {
+  color: cadetblue;
+}
+#box {
+  border: 1px solid black;
+  padding: 5px;
+  color: rgb(255, 0, 13);
+}
