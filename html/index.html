@@ -2,25 +2,25 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- โค้ดส่วนนนี้จะเป็นการเพิ่มไฟล์เสริมเช่น JS, CSS เป็นต้น โดยจะไม่แสดงผลทางหน้าจอ -->
     <!-- <meta>, <title></title>, <script></script>, <style></style>, <link> -->
     <title>Document</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lectures for Learn about HTML Document Structure">
-    <meta name="keyword" content="HTML5, HTML Structure, Documentm Structure">
-    <meta name="author" content="Phattaraphon Chomchaiyaphum">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lectures for Learn about HTML" />
+    <meta name="keyword" content="HTML5, HTML Structure, Documentm Structure" />
+    <meta name="author" content="Phattaraphon Chomchaiyaphum" />
+  </head>
+  <body>
     <!-- โค้ดที่อยู่ในส่วนนี้จะแสดงผลออกมาทางหน้าจอ -->
     <!-- This is a comment -->
     <h1>HTML Document Structure</h1>
     <p>This is a paragraph</p>
     <!-- hyperlink -->
-    <a href="http://www.google.com"> Google </a><br>
+    <a href="http://www.google.com"> Google </a><br />
     <!-- Image -->
-    <img src="image.png" alt="" width="600">
+    <img src="image.png" alt="" width="48" />
     <!-- Heading -->
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -29,8 +29,14 @@
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
     <!-- Paragraph -->
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s
+    </p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
     <!-- Table -->
     <!-- Element Nesting 
         <thead></thead>     การจัดกลุ่มหัวข้อของตาราง
@@ -40,59 +46,72 @@
         <th></th>           การกำหนดช่อง Column แต่จะเป็น Column ของหัวข้อซึ่งจะมีตัวหนากว่า td
     -->
     <table>
-        <thead> 
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>content 1</td>
-                <td>content 2</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>content 1</td>
+          <td>content 2</td>
+        </tr>
+      </tbody>
     </table>
 
     <!-- หากเราไม่ต้องการจัดกลุ่ม thead, tbody -->
     <table>
-        <tr>
-            <th>Column 3</th>
-            <th>Column 4</th>
-        </tr>
-        <tr>
-            <td>content 3</td>
-            <td>content 4</td>
-        </tr>
+      <tr>
+        <th>Column 3</th>
+        <th>Column 4</th>
+      </tr>
+      <tr>
+        <td>content 3</td>
+        <td>content 4</td>
+      </tr>
     </table>
     <!-- Unordered List -->
     <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
     </ul>
     <!-- Ordered List -->
     <ol>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
     </ol>
 
     <!-- HTML5 Semantic Elements ช่วยเรื่อง SEO-->
+    <!-- HTML5 Semantic Element : Article, Section, Nav, Footer, Header ... -->
     <!-- Article -->
     <article>
-        <!-- ใช้สำหรับครอบในส่วนของเนื้อหา -->
-        <h1>What Does WWF Do?</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <!-- ใช้สำหรับครอบในส่วนของเนื้อหา -->
+      <h1>What Does WWF Do?</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
     </article>
-
-
-    
-
-
-
-    
-</body>
+    <!-- Aside -->
+    <!-- ใช้กับส่วนของเนื้อหาที่เกี่ยวข้องกับเนื้อหาหลักที่อยู่โดยรอบ โดยมีจุดประสงค์เพื่อแยกออกจากเนื้อหาหลัก และใช้
+    เป็นกรอบคำอธิบายเพิ่มเติมที่เกี่ยวข้องกับเนื้อหาหลัก ซึ่งจะใช้หรือไม่ใช้ก็ได้ -->
+    <article>
+      <p>
+        HTML5 Semantic Element : Article, Section, Nav, Footer, Header ...
+      </p>
+      <aside>
+        <dl>
+          <dt>Article</dt>
+          <dl>Details Article</dl>
+          <dt>Section</dt>
+          <dl>Details Section</dl>
+          <dt>Nav</dt>
+          <dl>Details Nav</dl>
+        </dl>
+      </aside>
+    </article>
+  </body>
 </html>
-
-
