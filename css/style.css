@@ -106,3 +106,8 @@ div p {
 #article * span {
   font-weight: bold;
 }
+/*  8. Attribute Selector : alt="text" */
+/*  เป็นการชี้แบบเจาะจงเข้าไปอีก */
+img[alt="logo"] {
+  border: 2px solid #000000;
+}
