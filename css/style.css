@@ -141,3 +141,34 @@ a:hover {
   padding: 15px;
   border: 5px dashed lightseagreen;
 }
+
+/* The Box Model */
+/*  Margin > Border > Padding > Content 
+
+    margin          เป็นการผลักตัวเองจากด้านนอก
+    padding         เป็นการผลักตัวเองจากด้านใน
+    border          เส้นกรอบ
+*/
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #000000;
+}
+.box2 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(48, 34, 178);
+}
+.box3 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(48, 34, 178);
+  margin: 20px;
+}
+.box4 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(48, 34, 178);
+  margin: 20px;
+  padding: 20px;
+}
