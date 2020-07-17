@@ -1,0 +1,23 @@
+/* CSS Syntax
+    h1 {
+        color: blue;   
+        font-size: 12px;
+    }
+    h1                      คือ Selector
+    color, font-size        ตือ Property
+    blue, 12px              คือ Value
+
+    color: blue;            ตือ Declaration
+ */
+ /* CSS Rules ans Selectors
+    1. Tag, Element         div
+    2. ID                   #header
+    3. Class                .post
+    4. Sibling              h1 + p, h1 ~ p
+    5. Child                ul > li
+    6. Descendant           ul li
+    7. Universal            *
+    8. Attribute            type="text"
+    9. Pseudo-classes,      a:hover, p::first-letter
+       Pseudo-element
+*/
