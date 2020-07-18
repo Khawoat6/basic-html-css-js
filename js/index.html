@@ -18,12 +18,12 @@
     <!-- Finding HTML Element by Id -->
     <h1 id="Heading"></h1>
     <script>
-      document.getElementById("Heading").innerHTML - "This is a Heading";
+      document.getElementById("Heading").innerHTML = "This is a Heading";
     </script>
     <!-- Finding HTML Element by Class -->
     <span class="myClass"></span>
     <script>
-      document.getElementsByClassName("myClass")[0].innerHTML -
+      document.getElementsByClassName("myClass")[0].innerHTML =
         "This is a Span";
     </script>
     <!-- Finding HTML Element by TagName -->
@@ -31,12 +31,47 @@
     <p>Hello World</p>
     <script>
       var x = document.getElementsByTagName("p");
-      document.getElementById("Div1").innerHTML - x[0].innerHTML;
+      document.getElementById("Div1").innerHTML = x[0].innerHTML;
     </script>
     <!-- Length -->
     <script>
       var x = ["1", "2", "3"];
       document.write(x.length);
+    </script>
+    <br />
+    <!-- Convert to String, COnvert to Integer -->
+    <button onclick="myFunctionString()">Demo String</button>
+    <button onclick="myFunctionInteger()">Demo Integer</button>
+    <br />
+    <p id="demoString"></p>
+    <br />
+    <p id="demoInteger"></p>
+
+    <script>
+      function myFunctionString() {
+        var num = 15;
+        var n = num.toString();
+        document.getElementById("demoString").innerHTML = n; // 15
+      }
+
+      function myFunctionInteger() {
+        var a = parseInt("10") + "<br>"; // 10
+        var b = parseInt("10.00") + "<br>"; // 10
+        var c = parseInt("10.33") + "<br>"; // 10
+        var d = parseInt("34 45 66") + "<br>"; // 34
+        var e = parseInt("  60  ") + "<br>"; // 60
+        var f = parseInt("40 years") + "<br>"; // 40
+        var g = parseInt("He was 40") + "<br>"; // Nan
+
+        var h = parseInt("10", 10) + "<br>"; // 10
+        var i = parseInt("010") + "<br>"; // 10
+        var j = parseInt("10", 8) + "<br>"; // 8
+        var k = parseInt("0x10") + "<br>";
+        var l = parseInt("10", 16) + "<br>";
+
+        var n = a + b + c + d + e + f + g + "<br>" + h + i + j + k + l;
+        document.getElementById("demoInteger").innerHTML = n;
+      }
     </script>
   </body>
 </html>

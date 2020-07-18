@@ -23,5 +23,12 @@ document.getElementsByClassName("YourClass");
 // 3.  Finding HTML Element by TagName
 document.getElementsByTagName("p");
 
-// Lenght
-// .length          ใช้หาความยาวของ Array หรือความยาวของ String ได้เช่นกัน
+/* Lenght
+  .length          ใช้หาความยาวของ Array หรือความยาวของ String ได้เช่นกัน
+*/
+
+/*  Convert to String, Convert to Integer 
+    .toString();     ใช้สำหรับแปลงเป็น String
+    parseInt();      ใช้สำหรับแปลงเป็น Integer
+*/
+
