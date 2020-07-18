@@ -32,3 +32,6 @@ document.getElementsByTagName("p");
     parseInt();      ใช้สำหรับแปลงเป็น Integer
 */
 
+
+
+
