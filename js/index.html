@@ -316,5 +316,18 @@
         alert("Okey !"); // alert and show Okey !
       };
     </script>
+    <br /><br />
+    <!-- JavaScript Changing HTML Style -->
+
+    <button onclick="boldme()">Bold Me !</button>
+    <p id="p2">Hello World</p>
+
+    <script>
+      document.getElementById("p2").style.color = "blue";
+
+      function boldme() {
+        document.getElementById("p2").style.fontWeight = "800";
+      }
+    </script>
   </body>
 </html>

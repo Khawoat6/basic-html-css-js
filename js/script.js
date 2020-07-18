@@ -167,5 +167,11 @@ document.getElementsByTagName("p");
     document.appendChild()                      Add an HTML element
     document.replaceChild()                     Replace an HTML element
     document.write(text)                        Write into the HTML element
-    
+
+*/
+
+/*
+    *JavaScript Changing HTML Style
+    .style จะเป็นการสั่งให้ JS นั้นไปเปลี่ยนแปลง Style ของ CSS โดยใช้ .style ในการส่งค่า CSS ไปแสดงผล
+
 */
