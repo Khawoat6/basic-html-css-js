@@ -22,3 +22,6 @@ document.getElementById("YourID");
 document.getElementsByClassName("YourClass");
 // 3.  Finding HTML Element by TagName
 document.getElementsByTagName("p");
+
+// Lenght
+// .length          ใช้หาความยาวของ Array หรือความยาวของ String ได้เช่นกัน
