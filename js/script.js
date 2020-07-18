@@ -7,7 +7,18 @@
     เช่น กดปุ่มแล้วสั่งให้มันเด้งขึ้นมา etc.
 */
 
-// Document Write
-document.write(); // เป็นการพิมพ์ข้อความออกมาทางหน้าจอ
-// Using console.log
-console.log(); //  แสดงผลลัพธ์ในส่วนของ console ใช้สำหรับ debug
+// Document Write           เป็นการพิมพ์ข้อความออกมาทางหน้าจอ
+document.write();
+// Using console.log        แสดงผลลัพธ์ในส่วนของ console ใช้สำหรับ debug
+console.log();
+/* Finding HTML Element
+    เป็นการไปค้นหา HTML Tag ตามที่เราต้องการ โดยเรามักจะใช้สำหรับการไปดึงคุณสมบัติต่าง ๆ
+    ของแท็ก หรือเอาค่าที่เราเขียนใส่กลับเข้าไปในแท็ก
+    ที่ใช้บ่อย ๆ ได้แก่
+*/
+// 1.  Finding HTML Element by Id
+document.getElementById("YourID");
+// 2.  Finding HTML Element by Class
+document.getElementsByClassName("YourClass");
+// 3.  Finding HTML Element by TagName
+document.getElementsByTagName("p");

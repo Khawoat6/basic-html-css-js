@@ -15,5 +15,23 @@
     <script>
       console.log("Hello to my world !!!");
     </script>
+    <!-- Finding HTML Element by Id -->
+    <h1 id="Heading"></h1>
+    <script>
+      document.getElementById("Heading").innerHTML - "This is a Heading";
+    </script>
+    <!-- Finding HTML Element by Class -->
+    <span class="myClass"></span>
+    <script>
+      document.getElementsByClassName("myClass")[0].innerHTML -
+        "This is a Span";
+    </script>
+    <!-- Finding HTML Element by TagName -->
+    <h1 id="Div1"></h1>
+    <p>Hello World</p>
+    <script>
+      var x = document.getElementsByTagName("p");
+      document.getElementById("Div1").innerHTML - x[0].innerHTML;
+    </script>
   </body>
 </html>
