@@ -287,5 +287,26 @@
     <script>
       document.getElementById("TextReplace").innerHTML = "Replace Text"; // Replace Text
     </script>
+    <br />
+    <!-- Adding Events Handlers -->
+    <button onclick="myListNode()">Try in</button>
+
+    <ul id="myListNode">
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ul>
+
+    <script>
+      function myListNode() {
+        var node = document.createElement("LI"); // เป็นการสร้างแท็ก <li> ของ HTML
+        var textnode = document.createTextNode("Water"); // สร้างคำขึ้นมาเก็บไว้ในตัวแปร textnode
+        node.appendChild(textnode); // เอาคำที่เรากำหนด เพิ่มเข้าไปในแท็ก <li>
+
+        document.getElementById("myListNode").appendChild(node); // เอาแท็กและคำ เพิ่มเข้าไปใน Id="myListNode"
+      }
+      // Coffee
+      // Tea
+      // Water
+    </script>
   </body>
 </html>

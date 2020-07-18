@@ -159,5 +159,13 @@ document.getElementsByTagName("p");
     element.atribute =                          Change the atrribute of an HTML element
     element.setAttribute(attribute, value)      Change the attrubute of an HTML element
     element.style.property =                    Change the style of an HTML element
+
+    *Adding Events Handlers
+    เป็นการเพิ่ม ลบ และแทนที่ ของ Element ที่เราต้องการ โดยมี Method ด้านล่าง
+    document.createElement()                    Create an HTML element
+    document.removeChild()                      Remove an HTML element
+    document.appendChild()                      Add an HTML element
+    document.replaceChild()                     Replace an HTML element
+    document.write(text)                        Write into the HTML element
     
 */
