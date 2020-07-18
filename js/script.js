@@ -32,6 +32,30 @@ document.getElementsByTagName("p");
     parseInt();      ใช้สำหรับแปลงเป็น Integer
 */
 
+/* JavaScript Operators
 
+    1.  Arithmetic Operators
+    2.  Assighment Operators
+    3.  String Operators
+    4.  Comparison and Logical Operators
+
+
+    *Arithmetic Operators
+    1.     +            Addition
+    2.     -            Subtraction
+    3.     *            Multiplication
+    4.     /            Division
+    5.     %            Modulus
+    6.     ++           Increment
+    7.     --           Decrement
+
+   
+  
+
+
+
+
+
+*/
 
 

@@ -79,12 +79,24 @@
     <script>
       var x = 100;
       var y = 50;
-      var total = x + y;
-      var name = "Mark";
-      var friend = "Jonh" + " " + "Doe";
+      var total = x + y; // 150
+      var name = "Mark"; // Mark
+      var friend = "Jonh" + " " + "Doe"; // Jonh Doe
 
-      var s = total + " " + name + " " + friend;
-      document.getElementById("box1").innerHTML = s;
+      var s = total + " " + name + " " + friend; // 150 Mark Jonh Doe
+      document.getElementById("box1").innerHTML = s; // 150 Mark Jonh Doe
+    </script>
+    <!-- Arithmetic Operators -->
+    <script>
+      var x = 5;
+      var y = 2;
+      var z = x + y; // 7
+      var zz = x + y; // 7
+      z++; // z = z + 1
+      zz--;
+
+      var zzz = z + "<br>" + zz;
+      document.write(zzz); // 8
     </script>
   </body>
 </html>
