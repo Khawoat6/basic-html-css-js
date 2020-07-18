@@ -177,5 +177,22 @@
       document.getElementById("demo-3").innerHTML = cars[2]; // Mercedes Benz
       document.getElementById("demo-4").innerHTML = cars; // BMW,Volvo,Mercedes Benz
     </script>
+    <br />
+    <!-- Objects -->
+    <p id="demoObject-1"></p>
+    <p id="demoObject-2"></p>
+    <p id="demoObject-3"></p>
+    <p id="demoObject-4"></p>
+    <script>
+      var person = {
+        nickname: "Mark",
+        occupation: "Web Designer",
+        age: 23,
+      };
+
+      document.getElementById("demoObject-1").innerHTML = person["nickname"]; // Mark
+      document.getElementById("demoObject-2").innerHTML = person["occupation"]; // Web Designer
+      document.getElementById("demoObject-3").innerHTML = person["age"]; // 23
+    </script>
   </body>
 </html>
