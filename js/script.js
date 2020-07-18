@@ -139,3 +139,25 @@ document.getElementsByTagName("p");
     JSON Object กันก่อน โดยใช้คำสั่ง JSON.parse()
 
 */
+
+/*
+    *The HTML DOM Document Object
+    1.  Finding HTML Elements
+    2.  Changing HTML Elements
+    3.  Adding and Deleting Elements
+    4.  Adding Events Handlers
+
+    *Finding HTML Elements
+    เป็นการค้นหาแท็ก HTML ที่เราต้องการไปกระทำอะไรบางอย่าง 
+    document.getElementById()
+    document.getElementByClassName()
+    document.getElementByTagName()
+
+    *Changing HTML Elements
+    เป็นคำสั่งในการไปเปลี่ยนแปลงข้อมูลของแท็ก HTML
+    element.innerHTML =                         Change the inner HTML of an element
+    element.atribute =                          Change the atrribute of an HTML element
+    element.setAttribute(attribute, value)      Change the attrubute of an HTML element
+    element.style.property =                    Change the style of an HTML element
+    
+*/
