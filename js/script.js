@@ -37,12 +37,13 @@ document.getElementsByTagName("p");
 */
 
 /* 
+
     *JavaScript Operators
 
-    1.  Arithmetic Operators
-    2.  Assighment Operators
-    3.  String Operators
-    4.  Comparison and Logical Operators
+    -  Arithmetic Operators
+    -  Assighment Operators
+    -  Comparison and Logical Operators
+    -  String Operators
 
 
     *Arithmetic Operators
@@ -75,8 +76,14 @@ document.getElementsByTagName("p");
     10.     ||      or
     11.     !       not
 
+*/
 
-
-
-
+/*
+    *JavaScript Conditional
+   
+   -    if
+   -    else
+   -    else if
+   -    swith
+   
 */
