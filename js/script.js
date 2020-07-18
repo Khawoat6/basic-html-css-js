@@ -7,5 +7,7 @@
     เช่น กดปุ่มแล้วสั่งให้มันเด้งขึ้นมา etc.
 */
 
-// Document Write           เป็นการพิมพ์ข้อความออกมาทางหน้าจอ
-
+// Document Write
+document.write(); // เป็นการพิมพ์ข้อความออกมาทางหน้าจอ
+// Using console.log
+console.log(); //  แสดงผลลัพธ์ในส่วนของ console ใช้สำหรับ debug
