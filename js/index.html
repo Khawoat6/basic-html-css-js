@@ -254,5 +254,15 @@
     </button>
     <!-- Sat Jul 18 2020 23:51:13 GMT+0700 (Indochina Time) -->
     <p id="demo"></p>
+    <!-- or -->
+    <p>Click the button to display the date.</p>
+    <button onclick="displayDate()">The time is ?</button>
+
+    <script>
+      function displayDate() {
+        document.getElementById("demoTime").innerHTML = Date();
+      }
+    </script>
+    <p id="demoTime"></p>
   </body>
 </html>
