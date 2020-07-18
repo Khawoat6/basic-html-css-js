@@ -114,6 +114,21 @@ document.getElementsByTagName("p");
    *Looping Array Element
   ex. 
         for (index = 0; index < fruits.length; index++) {...}
-
    
+*/
+
+/*
+    *JavaScript Events
+    Events เป็นการทำงานของ JS ในเรื่องของเหตุการณ์ไม่ว่าจะเป็นการดักเหตุการณ์ที่จะเกิดขึ้น 
+    หรือ กำหนดให้เกิดเหตุการณ์ขึ้นตามกำหนด ดังนี้
+    
+    -   onchange        An HTML element has been changed
+    -   onclick         The user clicks an HTML element
+    -   onmouseover     The user moves the mouse over an HTML element
+    -   onmouseout      The user moves the mouse away from an HTML element
+    -   onkeydown       The user pushes a keyboard key
+    -   onload          The browser has finished loading the page
+    -   onsubmit        An Form element has beeb submit
+
+
 */
