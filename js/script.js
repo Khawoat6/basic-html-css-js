@@ -79,11 +79,26 @@ document.getElementsByTagName("p");
 */
 
 /*
-    *JavaScript Conditional
+   *JavaScript Conditional
    
    -    if
    -    else
    -    else if
    -    swith
+
+*/
+
+/*
+   *JavaScript Arrays
    
+   -    Arrays
+   -    Objects
+   -    Adding Array Elements
+   -    Looping Array Elements
+
+   *Arrays []
+   ใช้บ่อยมาก ในกรณีเช่น ข้อมูลของเราถูกส่งมาจาก Database และอยู่ีในรูปแบบของ Array
+   เราก็จะต้องนำเอาข้อมูลทั้งหมดนั้นมาแสดงผล และ อื่น ๆ
+
+
 */
