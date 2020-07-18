@@ -174,4 +174,16 @@ document.getElementsByTagName("p");
     *JavaScript Changing HTML Style
     .style จะเป็นการสั่งให้ JS นั้นไปเปลี่ยนแปลง Style ของ CSS โดยใช้ .style ในการส่งค่า CSS ไปแสดงผล
 
+    *Workshop : JavaScript
+    Hint :
+
+        .style.display                  ใช้เปลี่ยน style properties display ของ css
+        .style.color                    ใช้เปลี่ยน style properties color ของ css
+        .value                          รับค่าจาก input
+        .innerHTML                      การแทรกลงไปในแท็ก HTML
+        onclick                         รอรับเหตุการณ์เมื่อถูกคลิก
+        onmouseover                     รอรับเหตุการณ์เมื่อถูกเม้าวางทับ
+        document.getElementById("text") การ Finding HTML ที่ต้องการ
+        parseInt()                      ใช้ครอบค่าที่เป็ย String ให้เปลี่ยนเป็น Integer
+        
 */
