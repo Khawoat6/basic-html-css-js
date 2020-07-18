@@ -225,5 +225,23 @@
         document.getElementById("demoAdding").innerHTML = fruits; // Banana,Orange,Apple,Mango
       }
     </script>
+    <br />
+    <!-- Looping Array Element -->
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demoLoop"></p>
+
+    <script>
+      function myFunction() {
+        var index;
+        var text = "<ul>";
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        for (index = 0; index < fruits.length; index++) {
+          text += "<li>" + fruits[index] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("demoLoop").innerHTML = text;
+      }
+    </script>
   </body>
 </html>

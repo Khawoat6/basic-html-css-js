@@ -110,6 +110,10 @@ document.getElementsByTagName("p");
   .shift()              ลบ Array แรกออก
   .unshift()            แทรกด้านหน้า
   splice()              แทรกข้อมูลใหม่เข้าไปยังตำแหน่งใด ๆ ใน Array
-  
+
+   *Looping Array Element
+  ex. 
+        for (index = 0; index < fruits.length; index++) {...}
+
    
 */
