@@ -130,5 +130,12 @@ document.getElementsByTagName("p");
     -   onload          The browser has finished loading the page
     -   onsubmit        An Form element has beeb submit
 
+*/
+
+/*
+    *JavaScript JSON
+    โดยส่วนมาก JSON จะเกิดจาก API ที่ให้ข้อมูลเรานำมาใช้งานให้เอาไปแสดงผล 
+    แต่ JSON นั้นจะอยู่ในรูปแบบของ JSON String ซึ่งเราจะต้องแปลงให้อยู่ในรูปของ
+    JSON Object กันก่อน โดยใช้คำสั่ง JSON.parse()
 
 */
