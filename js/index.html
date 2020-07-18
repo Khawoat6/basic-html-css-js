@@ -194,5 +194,36 @@
       document.getElementById("demoObject-2").innerHTML = person["occupation"]; // Web Designer
       document.getElementById("demoObject-3").innerHTML = person["age"]; // 23
     </script>
+    <br />
+    <!-- Adding Array Element -->
+    <button onclick="myFunctionPush()">Push</button>
+    <button onclick="myFunctionUnShift()">Unshift</button>
+    <button onclick="myFunctionShift()">Shift</button>
+    <button onclick="myFunctionPop()">Pop</button>
+
+    <p id="demoAdding"></p>
+
+    <script>
+      var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+      document.getElementById("demoAdding").innerHTML = fruits; // Banana,Orange,Apple,Mango
+
+      function myFunctionPush() {
+        fruits.push("Lemon");
+        document.getElementById("demoAdding").innerHTML = fruits; // Banana,Orange,Apple,Mango,Lemon
+      }
+      function myFunctionUnShift() {
+        fruits.unshift("Grape");
+        document.getElementById("demoAdding").innerHTML = fruits; // Grape,Banana,Orange,Apple,Mango,Lemon
+      }
+      function myFunctionShift() {
+        fruits.shift();
+        document.getElementById("demoAdding").innerHTML = fruits; // Banana,Orange,Apple,Mango,Lemon
+      }
+      function myFunctionPop() {
+        fruits.pop();
+        document.getElementById("demoAdding").innerHTML = fruits; // Banana,Orange,Apple,Mango
+      }
+    </script>
   </body>
 </html>

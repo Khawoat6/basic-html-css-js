@@ -102,5 +102,14 @@ document.getElementsByTagName("p");
 
    *Objects {}
    คล้ายกับ Array เพียงแต่ว่า เราจะมีตัวแปรของค่า index เพิ่มขึ้นมา
+
+   *Adding Array Element
+  .push("Text")         เพิ่มข้่อมูลเข้าไปยัง Array
+  .join()               รวม Array เข้าด้วยกัน
+  .pop()                เลือกเอา Array สุดท้ายออกมา
+  .shift()              ลบ Array แรกออก
+  .unshift()            แทรกด้านหน้า
+  splice()              แทรกข้อมูลใหม่เข้าไปยังตำแหน่งใด ๆ ใน Array
+  
    
 */
